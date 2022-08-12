@@ -18,7 +18,15 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "assets/*": ["./src/assets/*"],
+//      "Cart/*": ["./src/components/Cart/*"],
+//      "Layout/*": ["./src/components/Layout/*"],
+//      "Meals/*": ["./src/components/Meals/*"],
+//      "UI/*": ["./src/components/UI/*"]
+    }
   },
   "include": [
     "src"
